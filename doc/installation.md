@@ -2,7 +2,7 @@
 
 To get started, you should add the `appzcoder/crud-generator` Composer dependency to your project:
 ```
-composer require appzcoder/crud-generator --dev
+composer require ribafs/crud-generator-appzcoder
 ```
 Once the package is installed, you should register the `Appzcoder\CrudGenerator\CrudGeneratorServiceProvider` service provider. Normally, Laravel 5.5+ will register the service provider automatically.
 
