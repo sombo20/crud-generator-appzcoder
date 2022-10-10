@@ -3,7 +3,13 @@
 ### CRUD Command
 
 ```
+Posts (title, content, category) in admin
+
 php artisan crud:generate Posts --fields='title#string; content#text; category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}' --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
+
+Customers (name, email) in / (root)
+
+php artisan crud:generate Customers --fields='name#string; email#string;' --view-path= --controller-namespace=App\\Http\\Controllers --route-group= --form-helper=html
 
 php artisan migrate
 
