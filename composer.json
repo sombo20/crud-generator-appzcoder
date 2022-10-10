@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Appzcoder\\CrudGenerator\\": "src/"
+            "Ribafs\\CrudGenerator\\": "src/"
         },
         "classmap": [
             "tests"
@@ -42,7 +42,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider"
+                "Ribafs\\CrudGenerator\\CrudGeneratorServiceProvider"
             ]
         }
     }
