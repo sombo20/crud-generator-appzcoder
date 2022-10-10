@@ -13,7 +13,7 @@ This Generator package provides various generators like CRUD, API, Controller, M
 
 ## Installation
 ```
-composer require appzcoder/crud-generator --dev
+composer require ribafs/crud-generator-appzcoder
 ```
 
 ## Documentation
