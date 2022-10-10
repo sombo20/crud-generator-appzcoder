@@ -19,6 +19,10 @@ composer require ribafs/crud-generator-appzcoder
 ## Documentation
 Go through to the [detailed documentation](doc#readme)
 
+## To API
+
+[api-tutorial](api-tutorial)
+
 ## Screencast
 
 [![Screencast](http://img.youtube.com/vi/831-PFBsYfw/0.jpg)](https://www.youtube.com/watch?v=K2G3kMQtY5Y)
