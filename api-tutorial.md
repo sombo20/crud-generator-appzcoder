@@ -46,9 +46,11 @@ http://localhost:8000/api/customers
 
 Header - Content-Type - Application/JSON
 
+Body - JSON
+
 ## Adicionar registro
 
-POST - JSON
+POST
 ```json
 {
 	"nome": "Ribamar",
