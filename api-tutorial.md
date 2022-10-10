@@ -118,3 +118,10 @@ Retorno
 
 DELETE http://localhost:8000/api/clientes/1 SEND
 
+Retorno:
+
+```json
+{
+	"Register deleted": 204
+}
+```
