@@ -53,7 +53,7 @@ Body - JSON
 POST
 ```json
 {
-	"nome": "Ribamar",
+	"name": "Ribamar",
 	"email": "ribafs@gmail.com",
 	"updated_at": "2022-10-10T15:55:44.000000Z",
 	"created_at": "2022-10-10T15:55:44.000000Z"
@@ -65,7 +65,7 @@ http://localhost:8000/api/clientes - SEND
 201 Created
 ```json
 {
-	"nome": "Ribamar",
+	"name": "Ribamar",
 	"email": "ribafs@gmail.com",
 	"updated_at": "2022-10-10T15:36:19.000000Z",
 	"created_at": "2022-10-10T15:36:19.000000Z",
@@ -84,9 +84,9 @@ http://localhost:8000/api/clientes - GET
 	"data": [
 		{
 			"id": 1,
-	        "updated_at": "2022-10-10T15:55:44.000000Z",
-	        "created_at": "2022-10-10T15:55:44.000000Z",
-			"nome": "Ribamar",
+		        "updated_at": "2022-10-10T15:55:44.000000Z",
+		        "created_at": "2022-10-10T15:55:44.000000Z",
+			"name": "Ribamar",
 			"email": "ribafs@gmail.com"
 		}
 	],
@@ -108,8 +108,8 @@ Retorno
 {
 	"id": 1,
 	"created_at": "2022-10-10T19:39:36.000000Z",
-	"updated_at": "2022-10-10T19:39:36.000000Z",
-	"name": null,
+	"updated_at": "2022-10-10T19:44:12.000000Z",
+	"name": "Ribamar Ferreira",
 	"email": "ribafs@gmail.com"
 }
 ```
