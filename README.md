@@ -21,7 +21,7 @@ Go through to the [detailed documentation](doc#readme)
 
 ## To API
 
-[api-tutorial](api-tutorial)
+[api-tutorial](api-tutorial.md)
 
 ## Screencast
 
