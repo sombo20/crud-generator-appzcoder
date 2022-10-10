@@ -94,11 +94,6 @@ http://localhost:8000/api/clientes - GET
 }
 ```
 
-## Excluir
-
-DELETE http://localhost:8000/api/clientes/1 SEND
-
-
 ## Atualizar
 
 PATCH  http://localhost:8000/api/clientes/1
@@ -106,11 +101,12 @@ PATCH  http://localhost:8000/api/clientes/1
 Retorno
 ```json
 {
-	"id": 1,
-	"created_at": "2022-10-10T15:55:28.000000Z",
-	"updated_at": "2022-10-10T15:58:17.000000Z",
 	"nome": "Ribamar FS",
 	"email": "ribafs@gmail.com"
 }
 ```
+
+## Excluir
+
+DELETE http://localhost:8000/api/clientes/1 SEND
 
