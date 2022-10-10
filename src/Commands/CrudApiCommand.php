@@ -152,7 +152,7 @@ class CrudApiCommand extends Command
      */
     protected function addRoutes()
     {
-        $this->controller .="App\Http\Controllers\".$this->controller;
+        $this->controller ="App\Http\Controllers\".$this->controller;
         return ["Route::resource('" . $this->routeName . "', '" . $this->controller . "', ['except' => ['create', 'edit']]);"];
     }
 
