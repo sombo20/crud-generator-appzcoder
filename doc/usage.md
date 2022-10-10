@@ -4,6 +4,12 @@
 
 ```
 php artisan crud:generate Posts --fields='title#string; content#text; category#select#options={"technology": "Technology", "tips": "Tips", "health": "Health"}' --view-path=admin --controller-namespace=App\\Http\\Controllers\\Admin --route-group=admin --form-helper=html
+
+php artisan migrate
+
+php artisan serve
+
+http://localhost/admin/posts
 ```
 
 #### CRUD fields from a JSON file:
