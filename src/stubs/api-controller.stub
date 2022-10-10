@@ -79,6 +79,6 @@ class DummyClass extends Controller
     {
         {{modelName}}::destroy($id);
 
-        return response()->json(null, 204);
+        return response()->json(['Register deleted' => 204]);
     }
 }
