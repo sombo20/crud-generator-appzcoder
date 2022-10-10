@@ -22,21 +22,21 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 ## Criar o CRUD customers para API
-
+```bash
 php artisan crud:api Customers --fields='name#string; email#string' --controller-namespace=Api
-
+```
 ## Ajuste a rota criada em routes/api.php para:
-
+```bash
 Route::resource('customers', 'App\Http\Controllers\Api\CustomersController', ['except' => ['create', 'edit']]);
-
+```
 ## Execute
-
+```bash
 php artisan migrate
-
+```
 ## Testando
-
+```bash
 php artisan serve
-
+```
 http://localhost:8000/api/customers
 
 
