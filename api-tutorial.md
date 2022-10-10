@@ -13,14 +13,14 @@ php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServ
 ## Configurar
 
 Configure o banco no .env
-
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=api
 DB_USERNAME=root
 DB_PASSWORD=root
-
+```
 ## Criar o CRUD customers para API
 
 php artisan crud:api Customers --fields='name#string; email#string' --controller-namespace=Api
@@ -28,7 +28,6 @@ php artisan crud:api Customers --fields='name#string; email#string' --controller
 ## Ajuste a rota criada em routes/api.php para:
 
 Route::resource('customers', 'App\Http\Controllers\Api\CustomersController', ['except' => ['create', 'edit']]);
-
 
 ## Execute
 
