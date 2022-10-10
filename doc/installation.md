@@ -2,13 +2,13 @@
 
 To get started, you should add the `appzcoder/crud-generator` Composer dependency to your project:
 ```
-composer require ribafs/crud-generator-appzcoder
+composer require appzcoder/crud-generator --dev
 ```
 Once the package is installed, you should register the `Appzcoder\CrudGenerator\CrudGeneratorServiceProvider` service provider. Normally, Laravel 5.5+ will register the service provider automatically.
 
 After that, publish its assets using the `vendor:publish` Artisan command:
 ```
-php artisan vendor:publish --provider="Ribafs\CrudGenerator\CrudGeneratorServiceProvider"
+php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
 ```
 
 ### Laravel older 5.5
@@ -19,7 +19,7 @@ If you're using an older verson of Laravel (<5.5) then just manually add the pro
 public function register()
 {
     if ($this->app->environment() == 'local') {
-        $this->app->register('Ribafs\CrudGenerator\CrudGeneratorServiceProvider');
+        $this->app->register('Appzcoder\CrudGenerator\CrudGeneratorServiceProvider');
     }
 }
 ```

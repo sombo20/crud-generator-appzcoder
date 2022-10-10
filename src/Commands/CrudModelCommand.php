@@ -1,6 +1,6 @@
 <?php
 
-namespace Ribafs\CrudGenerator\Commands;
+namespace Appzcoder\CrudGenerator\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

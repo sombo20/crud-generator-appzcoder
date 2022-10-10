@@ -1,5 +1,5 @@
 {
-    "name": "ribafs/crud-generator-appzcoder",
+    "name": "appzcoder/crud-generator",
     "license": "MIT",
     "description": "Laravel CRUD Generator",
     "keywords": [
@@ -14,11 +14,6 @@
             "name": "Sohel Amin",
             "email": "sohelamincse@gmail.com",
             "homepage": "http://www.appzcoder.com"
-        },
-        {
-            "name": "Ribamar FS",
-            "email": "ribafs@gmail.com",
-            "homepage": "https://ribafs.github.io"
         }
     ],
     "require": {
@@ -33,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ribafs\\CrudGenerator\\": "src/"
+            "Appzcoder\\CrudGenerator\\": "src/"
         },
         "classmap": [
             "tests"
@@ -42,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ribafs\\CrudGenerator\\CrudGeneratorServiceProvider"
+                "Appzcoder\\CrudGenerator\\CrudGeneratorServiceProvider"
             ]
         }
     }
