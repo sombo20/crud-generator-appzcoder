@@ -98,10 +98,18 @@ http://localhost:8000/api/clientes - GET
 
 PATCH  http://localhost:8000/api/clientes/1
 
+{
+	"nome": "Ribamar Ferreira",
+	"email": "ribafs@gmail.com"
+}
+
 Retorno
 ```json
 {
-	"nome": "Ribamar FS",
+	"id": 1,
+	"created_at": "2022-10-10T19:39:36.000000Z",
+	"updated_at": "2022-10-10T19:39:36.000000Z",
+	"name": null,
 	"email": "ribafs@gmail.com"
 }
 ```
