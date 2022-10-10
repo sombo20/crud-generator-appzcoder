@@ -5,7 +5,7 @@ laravel new api-customers
 cd api-customers
 
 ## Instalar o geradord e CRUDs
-composer require appzcoder/crud-generator --dev
+composer require ribafs/crud-generator-appzcoder
 
 ## Publicar
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
