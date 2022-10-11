@@ -68,7 +68,7 @@ class CrudApiCommand extends Command
         $this->routeName = ($routeGroup) ? $routeGroup . '/' . Str::snake($name, '-') : Str::snake($name, '-');
         $perPage = intval($this->option('pagination'));
 
-        $controllerNamespace = ($this->option('controller-namespace')) ? $this->option('controller-namespace') . '\\' : '';
+        $controllerNamespace = ($this->option('controller-namespace')) ? 'App\\Http\Controllers\\'.$this->option('controller-namespace') . '\\' : '';
         $modelNamespace = ($this->option('model-namespace')) ? trim($this->option('model-namespace')) . '\\' : 'Models\\';
 
         $fields = rtrim($this->option('fields'), ';');
@@ -152,7 +152,7 @@ class CrudApiCommand extends Command
      */
     protected function addRoutes()
     {
-        return ["Route::resource('" . $this->routeName . "', 'App\Http\Controllers\" . $this->controller . "', ['except' => ['create', 'edit']]);"];
+        return ["Route::resource('" . $this->routeName . "', '" . $this->controller . "', ['except' => ['create', 'edit']]);"];
     }
 
     /**
