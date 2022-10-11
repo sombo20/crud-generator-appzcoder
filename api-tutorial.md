@@ -1,18 +1,17 @@
-# Criar API para laravel 9 usando o gerador de CRUD/API
+# Create API for laravel 9 using CRUD/API generator
 
-## Instalar laravel
+## Install laravel
 laravel new api-customers
 cd api-customers
 
-## Instalar o geradord e CRUDs
+## Install generator
 composer require ribafs/crud-generator-appzcoder
 
-## Publicar
+## Publishe
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
 
-## Configurar
+## Create database and Configue on .env
 
-Configure o banco no .env
 ```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -21,7 +20,7 @@ DB_DATABASE=api
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
-## Criar o CRUD customers para API
+## Create the CRUD customers to API
 ```bash
 php artisan crud:api Customers --fields='name#string; email#string' --controller-namespace=Api
 ```
@@ -29,22 +28,22 @@ php artisan crud:api Customers --fields='name#string; email#string' --controller
 ```bash
 php artisan migrate
 ```
-## Testando
+## Try
 ```bash
 php artisan serve
 ```
 http://localhost:8000/api/customers
 
 
-## Usando com o Insomnia
+## Using with Insomnia
 
-## Algumas configurações
+## Configurations
 
 Header - Content-Type - Application/JSON
 
 Body - JSON
 
-## Adicionar registro
+## Add new registeer
 
 POST
 ```json
@@ -67,7 +66,7 @@ http://localhost:8000/api/clientes - SEND
 }
 ```
 
-## Consultar
+## Query
 
 http://localhost:8000/api/clientes - GET
 
@@ -88,7 +87,7 @@ http://localhost:8000/api/clientes - GET
 }
 ```
 
-## Atualizar
+## Update
 
 PATCH  http://localhost:8000/api/clientes/1
 
@@ -97,7 +96,8 @@ PATCH  http://localhost:8000/api/clientes/1
 	"email": "ribafs@gmail.com"
 }
 
-Retorno
+Return
+
 ```json
 {
 	"id": 1,
@@ -108,11 +108,11 @@ Retorno
 }
 ```
 
-## Excluir
+## Delete
 
 DELETE http://localhost:8000/api/clientes/1 SEND
 
-Retorno:
+Return:
 
 ```json
 {
