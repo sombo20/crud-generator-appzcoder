@@ -50,9 +50,7 @@ POST
 ```json
 {
 	"name": "Ribamar",
-	"email": "ribafs@gmail.com",
-	"updated_at": "2022-10-10T15:55:44.000000Z",
-	"created_at": "2022-10-10T15:55:44.000000Z"
+	"email": "ribafs@gmail.com"
 }
 ```
 
