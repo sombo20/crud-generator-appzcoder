@@ -20,7 +20,7 @@ composer require ribafs/crud-generator-appzcoder
 
 Two cruds relationship (in portuguese)
 
-[https://ribafs.github.io/backend/laravel/crud-generator.md](https://ribafs.github.io/backend/laravel/crud-generator.md)
+[https://ribafs.github.io/backend/framework/laravel/crud-generator/](https://ribafs.github.io/backend/framework/laravel/crud-generator/)
 
 ## Documentation
 Go through to the [detailed documentation](doc#readme)
