@@ -1,5 +1,7 @@
 # Create API for laravel 9 using CRUD/API generator
 
+Quite simply, so it seems to me that it is not suitable for those who are starting to learn APIs, but for those who already know.
+
 ## Install laravel
 laravel new api-customers
 cd api-customers
