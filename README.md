@@ -16,6 +16,12 @@ This Generator package provides various generators like CRUD, API, Controller, M
 composer require ribafs/crud-generator-appzcoder
 ```
 
+## Good example
+
+Two cruds relationship (in portuguese)
+
+[https://ribafs.github.io/backend/laravel/crud-generator.md](https://ribafs.github.io/backend/laravel/crud-generator.md)
+
 ## Documentation
 Go through to the [detailed documentation](doc#readme)
 
