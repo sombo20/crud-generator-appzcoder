@@ -3,15 +3,19 @@
 Quite simply, so it seems to me that it is not suitable for those who are starting to learn APIs, but for those who already know. Before learning to only use it like this without needing to know.
 
 ## Install laravel
-laravel new api-customers
+```php
+composer create-project laravel/laravel api-customers
 cd api-customers
+```
 
 ## Install generator
+```php
 composer require ribafs/crud-generator-appzcoder
-
+```
 ## Publishe
+```php
 php artisan vendor:publish --provider="Appzcoder\CrudGenerator\CrudGeneratorServiceProvider"
-
+```
 ## Create database and Configue on .env
 
 ```bash
