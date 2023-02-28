@@ -15,6 +15,11 @@ This Generator package provides various generators like CRUD, API, Controller, M
 ```
 composer require ribafs/crud-generator-appzcoder
 ```
+## Laravel 10
+
+Para compatibilizar com  laravel 10 instale de
+
+https://github.com/sohelamin/crud-generator
 
 ## Good example
 
