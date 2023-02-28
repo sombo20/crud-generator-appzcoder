@@ -17,7 +17,7 @@ composer require ribafs/crud-generator-appzcoder
 ```
 ## Laravel 10
 
-Para compatibilizar com  laravel 10 instale de
+To laravel 10 install from
 
 https://github.com/sohelamin/crud-generator
 
